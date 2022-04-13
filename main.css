@@ -170,6 +170,13 @@ footer {
 .footer__container {
   display: flex;
   justify-content: center;
+  /* justify-content: space-around; */
+}
+
+.footer__copyright {
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.5;
 }
 
 .footer__links {
@@ -181,16 +188,9 @@ footer {
   margin-bottom: 15px;
 }
 
-.footer__copyright {
-  margin-top: 40px;
-  text-align: center;
-  opacity: 0.5;
-}
-
 .footer__group {
   margin-right: 80px;
   text-align: left;
-
 }
 
 .footer__group h3 {
